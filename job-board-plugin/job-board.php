@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Job Board Naj
- * Plugin URI: https://example.com/job-board-plugin
+ * Plugin URI: https://github.com/najmus30044/Online-Job-Board
  * Description: A simple job board plugin for WordPress allowing job postings and applications.
  * Version: 1.0.0
  * Author: MD Najmus Shadat
@@ -45,4 +45,5 @@ add_action('plugins_loaded', function () {
 
     // initialize the plugin.
     \JobBoardPlugin\Base::get_instance();
+
 });
