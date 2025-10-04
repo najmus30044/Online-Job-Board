@@ -1,0 +1,12 @@
+{
+  "name": "najmus/job-board-plugin",
+  "description": "Job Board Plugin - PSR-4 autoloaded refactor",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0+",
+  "autoload": {
+    "psr-4": {
+      "JobBoardPlugin\\": "includes/"
+    }
+  },
+  "require": {}
+}
